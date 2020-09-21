@@ -1,4 +1,4 @@
-##Applied Machine Learning
+## Applied Machine Learning
 
 Machine learning is used to solve an extremely diverse range of problems.
 ## What is sentiment analysis and how can machine learning help Kafunge customers?
