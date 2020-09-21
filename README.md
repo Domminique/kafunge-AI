@@ -1,28 +1,47 @@
-# Get SH*T Done with PyTorch
+##Applied Machine Learning
 
-Learn how to solve real-world problems with Deep Learning models (NLP, Computer Vision, and Time Series). Go from prototyping to deployment with PyTorch and Python!
+Machine learning is used to solve an extremely diverse range of problems.
+## What is sentiment analysis and how can machine learning help Kafunge customers?
+When you think of artificial intelligence (AI), the word “emotion” doesn’t typically come to mind. But there’s an entire field of research using AI to understand emotional responses to news, product experiences, movies, restaurants, and more. It’s known as sentiment analysis, or emotion AI, and it involves analyzing views – positive, negative or neutral – from written text to understand and gauge reactions.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/curiousily/Getting-Things-Done-with-Pytorch/)
 
-<a href="https://bit.ly/gtd-with-pytorch" target="_blank">
-  <img src="https://raw.githubusercontent.com/curiousily/Getting-Things-Done-with-Pytorch/master/.github/book-cover.png" width="280">
-</a>
+The tech behind sentiment analysis involves **natural language processing or linguistic** algorithms that assign values to positive, negative or neutral text (converting opinions into datasets), while machine learning processes the datasets to reveal relevant trends over time. There’s significant planning required: How do you ensure the algorithms capture useful information? Are you identifying the right phrases to analyze? How can you convert findings into better products, services, and experiences?
 
-<a href="https://bit.ly/gtd-with-pytorch" target="_blank">Read the book here</a>
+## Goal Defination
+Our ojective in this tutorial will be to Identify the next best action for the customerthrough real-time insights that incorporate machine learning tools— sentiment analysis—can help **Kafunge**, **an inside sales CRM for SMEs and Startu-up** assess the likelihood of a deal closing or the level of a customer’s loyalty. I believe that Personally-tailored recommendations powered by machine learning can engage and delight customers with information and offers that are relevant to them
 
-## 📖 Read for FREE
+# Sentiment Analysis with BERT and Pytorch
 
-The whole book can be read using the links below. Each part contains a notebook that you can find in this repository.
+## Pytorch
+In my humble opinion, PyTorch is the sweet way to solve Machine Learning problems, in the real world! The vast community allows you to work state-of-the-art models and deploy them to production in no time (relatively speaking).Almost every framework is great, but PyTorch has really solid roots. Easy to use and understand, allows for fast experimentation and standard debugging tools apply! Enjoy!
 
-- [Getting Started with PyTorch](https://www.curiousily.com/posts/getting-started-with-pytorch/)
-- [Build Your First Neural Network](https://www.curiousily.com/posts/build-your-first-neural-network-with-pytorch/)
-- [Transfer Learning for Image Classification using Torchvision](https://www.curiousily.com/posts/transfer-learning-for-image-classification-using-torchvision-pytorch-and-python/)
-- [Face Detection on Custom Dataset with Detectron2](https://www.curiousily.com/posts/face-detection-on-custom-dataset-with-detectron2-in-python/)
-- [Time Series Forecasting with LSTMs for Daily Coronavirus Cases](https://www.curiousily.com/posts/time-series-forecasting-with-lstm-for-daily-coronavirus-cases/)
-- [Time Series Anomaly Detection using LSTM Autoencoders](https://www.curiousily.com/posts/time-series-anomaly-detection-using-lstm-autoencoder-with-pytorch-in-python/)
-- [Create Dataset for Sentiment Analysis by Scraping Google Play App Reviews](https://www.curiousily.com/posts/create-dataset-for-sentiment-analysis-by-scraping-google-play-app-reviews-using-python/)
-- [Sentiment Analysis with BERT and Transformers by Hugging Face](https://www.curiousily.com/posts/sentiment-analysis-with-bert-and-hugging-face-using-pytorch-and-python/)
-- [Deploy BERT for Sentiment Analysis as REST API using FastAPI](https://www.curiousily.com/posts/deploy-bert-for-sentiment-analysis-as-rest-api-using-pytorch-transformers-by-hugging-face-and-fastapi/)
-- [Object Detection on Custom Dataset with YOLO (v5)](https://www.curiousily.com/posts/object-detection-on-custom-dataset-with-yolo-v5-using-pytorch-and-python/)
+## BERT
+In this tutorial, you'll learn how to fine-tune BERT for sentiment analysis. You'll do the required text preprocessing (special tokens, padding, and attention masks) and build a Sentiment Classifier using the amazing Transformers library by Hugging Face!
 
-Consider buying the book if you want to support my work. Thanks for stopping by! 🤗
+You'll learn how to:
+
+- Intuitively understand what BERT is
+- Preprocess text data for BERT and build PyTorch Dataset (tokenization, attention masks, and padding)
+- Use Transfer Learning to build Sentiment Classifier using the Transformers library by Hugging Face
+- Evaluate the model on test data
+- Predict sentiment on raw text
+
+# Sentiment Analysis  with PyTorch
+
+
+## Challenge
+You’ll be creating a step-by-step written tutorial that demonstrates one or more features of any of the technologies listed below:
+
+using Open Source: PyTorch,Bert,Huggingface
+
+You can create a written tutorial about your newly built software solution, or use a solution that you’ve built in the past. You can also choose to focus on a specific component within the solution.
+
+If you’re using a sample that was written in the past, remember that you’ll need to check that your code still works with the latest version of the products being used.
+
+Whichever option you choose, you’ll also need to submit the code that you’re explaining in your tutorial.
+
+## projec kafunge
+Sentiment analysis is widely used in the industry to automate the sentiment of customer feedback or reviews, i.e to learn if the sentiment is 'positive' or negative.
+
+
+
